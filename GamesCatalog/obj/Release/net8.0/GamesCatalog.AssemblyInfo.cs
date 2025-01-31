@@ -12,9 +12,9 @@ using System;
 using System.Reflection;
 
 [assembly: System.Reflection.AssemblyCompanyAttribute("GamesCatalog")]
-[assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
+[assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4fe8b35a6de6ecd3e62dda8392040dcebeb46d94")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9e98f8c68fbc2fa6d44ad77aff4ef50e095f3815")]
 [assembly: System.Reflection.AssemblyProductAttribute("GamesCatalog")]
 [assembly: System.Reflection.AssemblyTitleAttribute("GamesCatalog")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

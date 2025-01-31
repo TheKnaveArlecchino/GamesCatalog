@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Dara\\source\\repos\\GamesCatalog\\GamesCatalog\\GamesCatalog.csproj": {}
+    "C:\\Users\\Dara\\Documents\\GitHub\\GamesCatalog\\GamesCatalog\\GamesCatalog.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Dara\\source\\repos\\GamesCatalog\\GamesCatalog\\GamesCatalog.csproj": {
+    "C:\\Users\\Dara\\Documents\\GitHub\\GamesCatalog\\GamesCatalog\\GamesCatalog.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Dara\\source\\repos\\GamesCatalog\\GamesCatalog\\GamesCatalog.csproj",
+        "projectUniqueName": "C:\\Users\\Dara\\Documents\\GitHub\\GamesCatalog\\GamesCatalog\\GamesCatalog.csproj",
         "projectName": "GamesCatalog",
-        "projectPath": "C:\\Users\\Dara\\source\\repos\\GamesCatalog\\GamesCatalog\\GamesCatalog.csproj",
+        "projectPath": "C:\\Users\\Dara\\Documents\\GitHub\\GamesCatalog\\GamesCatalog\\GamesCatalog.csproj",
         "packagesPath": "C:\\Users\\Dara\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Dara\\source\\repos\\GamesCatalog\\GamesCatalog\\obj\\",
+        "outputPath": "C:\\Users\\Dara\\Documents\\GitHub\\GamesCatalog\\GamesCatalog\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -49,6 +49,16 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
+          "dependencies": {
+            "MongoDB.Bson": {
+              "target": "Package",
+              "version": "[3.1.0, )"
+            },
+            "MongoDB.Driver.Core": {
+              "target": "Package",
+              "version": "[2.30.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",

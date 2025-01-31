@@ -1,22 +1,22 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Dara\\source\\repos\\GamesCatalog\\",
+  "WorkspaceRootPath": "C:\\Users\\Dara\\Documents\\GitHub\\GamesCatalog\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{DAAB9D21-CBC1-4CA2-A401-30E626FF98AB}|GamesCatalog\\GamesCatalog.csproj|c:\\users\\dara\\source\\repos\\gamescatalog\\gamescatalog\\dto\\developer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DAAB9D21-CBC1-4CA2-A401-30E626FF98AB}|GamesCatalog\\GamesCatalog.csproj|solutionrelative:gamescatalog\\dto\\developer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{DAAB9D21-CBC1-4CA2-A401-30E626FF98AB}|GamesCatalog\\GamesCatalog.csproj|c:\\users\\dara\\documents\\github\\gamescatalog\\gamescatalog\\interfaces\\igamerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DAAB9D21-CBC1-4CA2-A401-30E626FF98AB}|GamesCatalog\\GamesCatalog.csproj|solutionrelative:gamescatalog\\interfaces\\igamerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DAAB9D21-CBC1-4CA2-A401-30E626FF98AB}|GamesCatalog\\GamesCatalog.csproj|c:\\users\\dara\\source\\repos\\gamescatalog\\gamescatalog\\controllers\\gamescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DAAB9D21-CBC1-4CA2-A401-30E626FF98AB}|GamesCatalog\\GamesCatalog.csproj|solutionrelative:gamescatalog\\controllers\\gamescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DAAB9D21-CBC1-4CA2-A401-30E626FF98AB}|GamesCatalog\\GamesCatalog.csproj|c:\\users\\dara\\source\\repos\\gamescatalog\\gamescatalog\\dto\\game.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{DAAB9D21-CBC1-4CA2-A401-30E626FF98AB}|GamesCatalog\\GamesCatalog.csproj|c:\\users\\dara\\documents\\github\\gamescatalog\\gamescatalog\\dto\\game.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{DAAB9D21-CBC1-4CA2-A401-30E626FF98AB}|GamesCatalog\\GamesCatalog.csproj|solutionrelative:gamescatalog\\dto\\game.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DAAB9D21-CBC1-4CA2-A401-30E626FF98AB}|GamesCatalog\\GamesCatalog.csproj|c:\\users\\dara\\source\\repos\\gamescatalog\\gamescatalog\\gamescatalog.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{DAAB9D21-CBC1-4CA2-A401-30E626FF98AB}|GamesCatalog\\GamesCatalog.csproj|solutionrelative:gamescatalog\\gamescatalog.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+      "AbsoluteMoniker": "D:0:0:{DAAB9D21-CBC1-4CA2-A401-30E626FF98AB}|GamesCatalog\\GamesCatalog.csproj|c:\\users\\dara\\documents\\github\\gamescatalog\\gamescatalog\\dto\\developer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DAAB9D21-CBC1-4CA2-A401-30E626FF98AB}|GamesCatalog\\GamesCatalog.csproj|solutionrelative:gamescatalog\\dto\\developer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DAAB9D21-CBC1-4CA2-A401-30E626FF98AB}|GamesCatalog\\GamesCatalog.csproj|c:\\users\\dara\\documents\\github\\gamescatalog\\gamescatalog\\controllers\\gamescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DAAB9D21-CBC1-4CA2-A401-30E626FF98AB}|GamesCatalog\\GamesCatalog.csproj|solutionrelative:gamescatalog\\controllers\\gamescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -47,10 +47,36 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "IGameRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Dara\\Documents\\GitHub\\GamesCatalog\\GamesCatalog\\Interfaces\\IGameRepository.cs",
+              "RelativeDocumentMoniker": "GamesCatalog\\Interfaces\\IGameRepository.cs",
+              "ToolTip": "C:\\Users\\Dara\\Documents\\GitHub\\GamesCatalog\\GamesCatalog\\Interfaces\\IGameRepository.cs",
+              "RelativeToolTip": "GamesCatalog\\Interfaces\\IGameRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-31T04:01:41.121Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "GamesController.cs",
+              "DocumentMoniker": "C:\\Users\\Dara\\Documents\\GitHub\\GamesCatalog\\GamesCatalog\\Controllers\\GamesController.cs",
+              "RelativeDocumentMoniker": "GamesCatalog\\Controllers\\GamesController.cs",
+              "ToolTip": "C:\\Users\\Dara\\Documents\\GitHub\\GamesCatalog\\GamesCatalog\\Controllers\\GamesController.cs",
+              "RelativeToolTip": "GamesCatalog\\Controllers\\GamesController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-27T06:29:53.811Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "Developer.cs",
-              "DocumentMoniker": "C:\\Users\\Dara\\source\\repos\\GamesCatalog\\GamesCatalog\\DTO\\Developer.cs",
+              "DocumentMoniker": "C:\\Users\\Dara\\Documents\\GitHub\\GamesCatalog\\GamesCatalog\\DTO\\Developer.cs",
               "RelativeDocumentMoniker": "GamesCatalog\\DTO\\Developer.cs",
-              "ToolTip": "C:\\Users\\Dara\\source\\repos\\GamesCatalog\\GamesCatalog\\DTO\\Developer.cs",
+              "ToolTip": "C:\\Users\\Dara\\Documents\\GitHub\\GamesCatalog\\GamesCatalog\\DTO\\Developer.cs",
               "RelativeToolTip": "GamesCatalog\\DTO\\Developer.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -59,39 +85,16 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "Game.cs",
-              "DocumentMoniker": "C:\\Users\\Dara\\source\\repos\\GamesCatalog\\GamesCatalog\\DTO\\Game.cs",
+              "DocumentMoniker": "C:\\Users\\Dara\\Documents\\GitHub\\GamesCatalog\\GamesCatalog\\DTO\\Game.cs",
               "RelativeDocumentMoniker": "GamesCatalog\\DTO\\Game.cs",
-              "ToolTip": "C:\\Users\\Dara\\source\\repos\\GamesCatalog\\GamesCatalog\\DTO\\Game.cs",
+              "ToolTip": "C:\\Users\\Dara\\Documents\\GitHub\\GamesCatalog\\GamesCatalog\\DTO\\Game.cs",
               "RelativeToolTip": "GamesCatalog\\DTO\\Game.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-31T03:18:15.263Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "GamesCatalog.csproj",
-              "DocumentMoniker": "C:\\Users\\Dara\\source\\repos\\GamesCatalog\\GamesCatalog\\GamesCatalog.csproj",
-              "RelativeDocumentMoniker": "GamesCatalog\\GamesCatalog.csproj",
-              "ToolTip": "C:\\Users\\Dara\\source\\repos\\GamesCatalog\\GamesCatalog\\GamesCatalog.csproj",
-              "RelativeToolTip": "GamesCatalog\\GamesCatalog.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-01-31T03:17:25.589Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "GamesController.cs",
-              "DocumentMoniker": "C:\\Users\\Dara\\source\\repos\\GamesCatalog\\GamesCatalog\\Controllers\\GamesController.cs",
-              "RelativeDocumentMoniker": "GamesCatalog\\Controllers\\GamesController.cs",
-              "ToolTip": "C:\\Users\\Dara\\source\\repos\\GamesCatalog\\GamesCatalog\\Controllers\\GamesController.cs",
-              "RelativeToolTip": "GamesCatalog\\Controllers\\GamesController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAqwBIAAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-27T06:29:53.811Z"
+              "WhenOpened": "2025-01-31T03:18:15.263Z",
+              "EditorCaption": ""
             }
           ]
         }
