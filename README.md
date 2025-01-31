@@ -1,2 +1,2 @@
-**GamesCatalog**
-C#.NET Project
+#**GamesCatalog**
+University of Plovdiv C#.NET Project
