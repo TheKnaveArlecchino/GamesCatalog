@@ -54,6 +54,10 @@
               "target": "Package",
               "version": "[3.1.0, )"
             },
+            "MongoDB.Driver": {
+              "target": "Package",
+              "version": "[3.1.0, )"
+            },
             "MongoDB.Driver.Core": {
               "target": "Package",
               "version": "[2.30.0, )"
