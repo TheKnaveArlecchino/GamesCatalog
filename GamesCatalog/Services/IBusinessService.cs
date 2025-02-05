@@ -4,7 +4,7 @@ namespace GamesCatalog.Services
 {
     public interface IBusinessService
     {
-        Task<IEnumerable<Game>> GetAllGamesAsync();
-        Task<Game> GetGameByIdAsync(int id);
+        IEnumerable<Game> GetAllGames();
+        Game GetGameById(int id);
     }
 }

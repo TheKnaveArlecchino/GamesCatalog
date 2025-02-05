@@ -2,19 +2,37 @@
 using MongoDB.Driver;
 using GamesCatalog.DTO;
 using GamesCatalog.Interfaces;
+
 namespace GamesCatalog.Repositories
 {
-        public class GameRepository : IGameRepository
+    public class GameRepository : IGameRepository
+    {
+        private readonly List<Game> _games = new();
+
+        public Game GetById(int id)
         {
-            private readonly List<Game> _games = new(); // Simulating DB
+            throw new NotImplementedException();
+        }
 
-            public Task<IEnumerable<Game>> GetAllAsync() => Task.FromResult(_games.AsEnumerable());
-            public Task<Game> GetByIdAsync(int id)
-            {
-                return Task.FromResult(_games.FirstOrDefault(g => g.Id == id));
-            }
+        public void Add(Game game)
+        {
+            _games.Add(game);
+        }
 
-            public Task AddAsync(Game game) { _games.Add(game); return Task.CompletedTask; }
-            public Task UpdateAsync(Game game) { var index = _games.FindIndex(g => g.Id == game.Id); if (index != -1) _games[index] = game; return Task.CompletedTask; }
-            public Task DeleteAsync(int id) { _games.RemoveAll(g => g.Id == id); return Task.CompletedTask; }
+        public void Update(Game game)
+        {
+            var index = _games.FindIndex(g => g.Id == game.Id);
+            if (index != -1)
+                _games[index] = game;
+        }
+
+        public void Delete(int id)
+        {
+            _games.RemoveAll(g => g.Id == id);
+        }
+
+        public IEnumerable<Game> GetAll()
+        {
+            throw new NotImplementedException();
+        }
     }

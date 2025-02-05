@@ -12,14 +12,19 @@ namespace GamesCatalog.Controllers
         public GamesController(IBusinessService businessService) { _businessService = businessService; }
 
         [HttpGet]
-        public async Task<IActionResult> GetAllGames() => Ok(await _businessService.GetAllGamesAsync());
+        public IActionResult GetAllGames()
+        {
+            var games = _businessService.GetAllGames();
+            return Ok(games);
+        }
 
         [HttpGet("{id}")]
-        public async Task<IActionResult> GetGameById(int id)
+        public IActionResult GetGameById(int id)
         {
-            var game = await _businessService.GetGameByIdAsync(id);
-            return game == null ? NotFound() : Ok(game);
+            var game = _businessService.GetGameById(id);
+            return game != null ? Ok(game) : NotFound();
         }
+
     }
 }
 }
