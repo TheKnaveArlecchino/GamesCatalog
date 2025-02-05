@@ -6,8 +6,8 @@ namespace GamesCatalog.Interfaces
     {
         Game GetById(int id);
         IEnumerable<Game> GetAll();
-        Add(Game game);
-        Update(Game game);
-        Delete(int id);
+        void Add(Game game);
+        void Update(Game game);
+        void Delete(int id);
     }
 }

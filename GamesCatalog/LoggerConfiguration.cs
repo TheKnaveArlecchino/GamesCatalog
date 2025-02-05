@@ -1,4 +1,4 @@
-﻿internal class LoggerConfiguration
+﻿public class LoggerConfiguration
 {
     public LoggerConfiguration()
     {

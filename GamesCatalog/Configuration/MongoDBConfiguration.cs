@@ -1,6 +1,6 @@
 ﻿namespace GamesCatalog.Configuration
 {
-    public class MongoDBConfiguration
+    public class MongoDBConfiguration : IMongoDBConfiguration
     {
 
         public string ConnectionString { get; set; } = string.Empty;

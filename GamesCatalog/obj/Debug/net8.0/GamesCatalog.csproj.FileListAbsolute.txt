@@ -1,0 +1,8 @@
+C:\Users\Dara\Documents\GitHub\GamesCatalog\GamesCatalog\obj\Debug\net8.0\GamesCatalog.csproj.AssemblyReference.cache
+C:\Users\Dara\Documents\GitHub\GamesCatalog\GamesCatalog\obj\Debug\net8.0\GamesCatalog.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Dara\Documents\GitHub\GamesCatalog\GamesCatalog\obj\Debug\net8.0\GamesCatalog.AssemblyInfoInputs.cache
+C:\Users\Dara\Documents\GitHub\GamesCatalog\GamesCatalog\obj\Debug\net8.0\GamesCatalog.AssemblyInfo.cs
+C:\Users\Dara\Documents\GitHub\GamesCatalog\GamesCatalog\obj\Debug\net8.0\GamesCatalog.csproj.CoreCompileInputs.cache
+C:\Users\Dara\Documents\GitHub\GamesCatalog\GamesCatalog\obj\Debug\net8.0\GamesCatalog.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\Dara\Documents\GitHub\GamesCatalog\GamesCatalog\obj\Debug\net8.0\GamesCatalog.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Dara\Documents\GitHub\GamesCatalog\GamesCatalog\obj\Debug\net8.0\GamesCatalog.sourcelink.json

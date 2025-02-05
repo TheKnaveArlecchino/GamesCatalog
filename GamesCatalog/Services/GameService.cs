@@ -3,12 +3,10 @@ using GamesCatalog.Interfaces;
 
 namespace GamesCatalog.Services
 {
-    public class GameService : IGameService
+    public class GameService(IGameRepository gameRepository) : IGameService
     {
-        private readonly IGameRepository _gameRepository;
-        public GameService(IGameRepository gameRepository) {
-            _gameRepository = gameRepository;
-    }
+        private readonly IGameRepository _gameRepository = gameRepository;
+
         public Game GetGameDetails(string id)
         {
             throw new NotImplementedException();

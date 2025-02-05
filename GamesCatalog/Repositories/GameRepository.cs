@@ -13,7 +13,10 @@ namespace GamesCatalog.Repositories
         {
             throw new NotImplementedException();
         }
-
+        public IEnumerable<Game> GetAll()
+        {
+            throw new NotImplementedException();
+        }
         public void Add(Game game)
         {
             _games.Add(game);
@@ -29,10 +32,5 @@ namespace GamesCatalog.Repositories
         public void Delete(int id)
         {
             _games.RemoveAll(g => g.Id == id);
-        }
-
-        public IEnumerable<Game> GetAll()
-        {
-            throw new NotImplementedException();
         }
     }
